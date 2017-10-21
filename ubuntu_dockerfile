@@ -1,0 +1,4 @@
+# ubuntu 14.04 with vim and gcc  
+FROM ubuntu:14.04  
+MAINTAINER Barry Song<21cnbao@gmail.com>  
+RUN apt-get update && apt-get install –y vim gcc  
