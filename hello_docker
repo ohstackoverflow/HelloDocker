@@ -1,4 +1,4 @@
-FROM centos:base
+FROM centos
 MAINTAINER xiaxulin
 RUN yum -y install httpd; systemctl enable httpd.service
 RUN yum -y install mariadb-server mariadb; systemctl enable mariadb.service
