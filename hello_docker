@@ -1,5 +1,5 @@
 # Pull base image  
-FROM CentOS  
+FROM centos  
   
 MAINTAINER xiaxulin "6983299@qq.com"  
    
